@@ -1,2 +1,3 @@
-# gromacs_scripts
-to use accompany with gromacs analysis tools.
+Various scripts for my personal use
+simliar repository like:
+`https://github.com/HanatoK/miscellaneous_scripts`
