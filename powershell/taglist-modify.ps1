@@ -1,10 +1,10 @@
 # 导入必要的程序集  
 # 是在dotnet add的时候添加的.
-$tagLibPath = "C:\Users\Lenovo\.nuget\2.3.0\lib\netstandard2.0\TagLibSharp.dll"
+$tagLibPath = "C:\Users\Lenovo\.nuget\packages\taglibsharp\2.3.0\lib\netstandard2.0\TagLibSharp.dll"
 Add-Type -Path $tagLibPath
 
 # 指定要遍历的文件夹路径  
-$folderPath = "C:\Users\Lenovo\docf\jianing\英语资料\牛津树\音频-英音\level-1"  
+$folderPath = "C:\Users\Lenovo\docf\jianing\英语资料\牛津树\音频-英音\level-2"  
 
 # 获取所有 MP3 文件  
 $mp3Files = Get-ChildItem -Path $folderPath -Filter *.mp3  
